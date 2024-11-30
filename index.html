@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defense Monitoring System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>INTEL LITE</h1>
+        <p>Real-time Environmental Monitoring for Defense</p>
+    </header>
+
+    <main>
+        <section id="monitoring">
+            <h2>Monitoring Dashboard</h2>
+            <div class="sensor" id="temperature">
+                <h3>Temperature</h3>
+                <p><span id="temp-value">--</span> °C</p>
+            </div>
+            <div class="sensor" id="light">
+                <h3>Light</h3>
+                <p><span id="light-value">--</span> lux</p>
+            </div>
+            <div class="sensor" id="sound">
+                <h3>Sound</h3>
+                <p><span id="sound-value">--</span> dB</p>
+            </div>
+            <div class="sensor" id="motion">
+                <h3>Motion</h3>
+                <p id="motion-status">--</p>
+            </div>
+            <div class="sensor" id="humidity">
+                <h3>Humidity</h3>
+                <p><span id="humidity-value">--</span> %</p>
+            </div>
+        </section>
+
+        <section id="future">
+            <h2>Future Enhancements</h2>
+            <p>We aim to integrate camera monitoring in the next phase of development.</p>
+            <div class="camera-placeholder">
+                <p>Camera feed will appear here.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Defense Monitoring System | Developed for Hackathons</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
